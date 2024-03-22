@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "**What is Emmet?** Emmet is a plugin for text editors that allows for greatly improved HTML and CSS workflow. It enables developers to write HTML and CSS code faster using abbreviations and shortcuts. For example, typing div.container>p*3 and then expanding it with Emmet would result in: <div class=\"container\">     <p></p>     <p></p>     <p></p> </div>",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "Snehal"
+  ],
+  "author": "Snehal Koli",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "defaults and fully supports es6-module",
+    "maintained node versions"
+  ]
+}
