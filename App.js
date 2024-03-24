@@ -1,9 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-const heading = React.createElement('h1', { id: 'title' }, 'Namaste Everyone!');
-console.log(heading);
+// const heading = React.createElement('h1', { id: 'title' }, 'Namaste Everyone!');
+const Heading = () => (
+  <div>
+    <h1>Namaste React</h1>
+  </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(heading);
+root.render(Heading());
 
 // anything which is auto generated should be put inside the git ignore
 //you cant directly use import you have to have your script as module

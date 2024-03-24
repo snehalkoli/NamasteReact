@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "**What is Emmet?** Emmet is a plugin for text editors that allows for greatly improved HTML and CSS workflow. It enables developers to write HTML and CSS code faster using abbreviations and shortcuts. For example, typing div.container>p*3 and then expanding it with Emmet would result in: <div class=\"container\">     <p></p>     <p></p>     <p></p> </div>",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "Snehal"
@@ -11,6 +13,8 @@
   "author": "Snehal Koli",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
